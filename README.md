@@ -1,4 +1,4 @@
-# stickman-game
+# dungeon-rpg
 
 一个用 Java 写的命令行回合制地下城 RPG 游戏。
 
