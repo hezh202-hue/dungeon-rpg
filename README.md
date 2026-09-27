@@ -1,6 +1,13 @@
 # dungeon-rpg
 
-一个用 Java 写的命令行回合制地下城 RPG 游戏。
+本仓库包含两个游戏：
+
+- **[✈️ 云端大厨 Sky Chef](sky-chef/)**：受《飞机大厨》启发的空中厨房时间管理游戏，融合了 Roguelike 航线、连击狂热、气流颠簸等玩法。浏览器打开 `sky-chef/index.html` 即玩。详见 [sky-chef/README.md](sky-chef/README.md)。
+- **地下城 RPG**（下文）：一个用 Java 写的命令行回合制地下城 RPG 游戏。
+
+---
+
+## 地下城 RPG
 
 选择职业（战士 / 法师 / 弓手），探索 10 层地下城，击败最终 Boss「远古火龙」。
 

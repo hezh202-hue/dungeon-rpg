@@ -1,0 +1,22 @@
+name: Sky Chef tests
+
+on:
+  push:
+    paths:
+      - 'sky-chef/**'
+      - '.github/workflows/sky-chef.yml'
+  pull_request:
+    paths:
+      - 'sky-chef/**'
+      - '.github/workflows/sky-chef.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Engine tests & balance simulation
+        run: node sky-chef/tests/sim.js
